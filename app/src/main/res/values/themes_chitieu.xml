@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Theme riêng của ứng dụng (giao diện sáng, có ActionBar) -->
+    <style name="Theme.ChiTieu" parent="Theme.MaterialComponents.Light.DarkActionBar">
+        <item name="colorPrimary">@color/ct_primary</item>
+        <item name="colorPrimaryVariant">@color/ct_primary_dark</item>
+        <item name="colorOnPrimary">@android:color/white</item>
+        <item name="colorSecondary">@color/ct_accent</item>
+        <item name="colorOnSecondary">@android:color/white</item>
+        <item name="android:windowBackground">@color/ct_nen</item>
+    </style>
+</resources>

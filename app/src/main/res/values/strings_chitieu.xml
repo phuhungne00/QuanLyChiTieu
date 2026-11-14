@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ct_ten_ung_dung">Chi tiêu thông minh</string>
+
+    <!-- Dùng chung -->
+    <string name="huy">Hủy</string>
+    <string name="luu">Lưu</string>
+    <string name="xoa">Xóa</string>
+    <string name="da_luu">Đã lưu</string>
+    <string name="da_xoa">Đã xóa</string>
+    <string name="thu_nhap">Thu nhập</string>
+    <string name="chi_tieu">Chi tiêu</string>
+    <string name="loi_nhap_so_tien">Vui lòng nhập số tiền</string>
+    <string name="loi_so_tien_khong_hop_le">Số tiền không hợp lệ</string>
+    <string name="loi_nhap_ten">Vui lòng nhập tên</string>
+    <string name="chua_co_du_lieu">Chưa có dữ liệu</string>
+
+    <!-- Màn hình chính -->
+    <string name="thang_truoc">‹</string>
+    <string name="thang_sau">›</string>
+    <string name="thang_nam">Tháng %1$s</string>
+    <string name="so_du">Số dư trong tháng</string>
+    <string name="tong_thu">Thu: %1$s</string>
+    <string name="tong_chi">Chi: %1$s</string>
+    <string name="chua_dat_ngan_sach">Chưa đặt ngân sách tháng. Vào Cài đặt để đặt hạn mức chi tiêu.</string>
+    <string name="ngan_sach_da_chi">Đã chi %1$s / %2$s (%3$d%%)</string>
+    <string name="chua_co_giao_dich">Chưa có giao dịch nào trong tháng này</string>
+    <string name="them_giao_dich">+ Thêm giao dịch</string>
+    <string name="thong_ke">Thống kê</string>
+    <string name="muc_tieu_tiet_kiem">Mục tiêu</string>
+    <string name="cai_dat">Cài đặt</string>
+    <string name="xoa_giao_dich_hoi">Xóa giao dịch này?</string>
+
+    <!-- Thêm / sửa giao dịch -->
+    <string name="tieu_de_them">Thêm giao dịch</string>
+    <string name="tieu_de_sua">Sửa giao dịch</string>
+    <string name="danh_muc">Danh mục</string>
+    <string name="so_tien_hint">Số tiền (VNĐ)</string>
+    <string name="ghi_chu_hint">Ghi chú (không bắt buộc)</string>
+
+    <!-- Thống kê -->
+    <string name="tong_quan">Thu: %1$s  |  Chi: %2$s\nChênh lệch: %3$s</string>
+    <string name="tk_chi_theo_danh_muc">Chi tiêu theo danh mục</string>
+    <string name="tk_thu_chi_6_thang">Thu - Chi 6 tháng gần nhất</string>
+    <string name="tk_phan_tich">Phân tích và gợi ý</string>
+    <string name="pt_tang">Chi tiêu tháng này tăng %1$d%% so với tháng trước.</string>
+    <string name="pt_giam">Chi tiêu tháng này giảm %1$d%% so với tháng trước. Rất tốt!</string>
+    <string name="pt_bang">Chi tiêu tháng này bằng tháng trước.</string>
+    <string name="pt_nhieu_nhat">Bạn chi nhiều nhất cho \"%1$s\", chiếm %2$d%% tổng chi.</string>
+    <string name="pt_trung_binh_ngay">Trung bình mỗi ngày bạn chi %1$s.</string>
+    <string name="pt_du_bao">Với tốc độ này, cuối tháng bạn sẽ chi khoảng %1$s.</string>
+    <string name="pt_du_bao_vuot">Dự báo vượt ngân sách khoảng %1$s. Hãy cắt giảm các khoản chi chưa cần thiết.</string>
+    <string name="pt_du_bao_on">Dự báo chi tiêu vẫn nằm trong ngân sách. Hãy tiếp tục phát huy!</string>
+    <string name="pt_tiet_kiem_tot">Tỷ lệ tiết kiệm đạt %1$d%% thu nhập, đạt mức khuyến nghị từ 20%% trở lên.</string>
+    <string name="pt_tiet_kiem_thap">Tỷ lệ tiết kiệm mới đạt %1$d%% thu nhập. Nên tiết kiệm ít nhất 20%% thu nhập mỗi tháng.</string>
+
+    <!-- Mục tiêu tiết kiệm -->
+    <string name="chua_co_muc_tieu">Chưa có mục tiêu nào.\nHãy đặt mục tiêu đầu tiên của bạn!</string>
+    <string name="them_muc_tieu_btn">+ Thêm mục tiêu</string>
+    <string name="them_muc_tieu">Thêm mục tiêu tiết kiệm</string>
+    <string name="ten_muc_tieu_hint">Tên mục tiêu (vd: Mua laptop)</string>
+    <string name="so_tien_muc_tieu_hint">Số tiền cần tiết kiệm (VNĐ)</string>
+    <string name="han_hoan_thanh">Hạn hoàn thành: %1$s</string>
+    <string name="nap_tien">Nạp thêm tiền</string>
+    <string name="so_tien_nap">Số tiền nạp (VNĐ)</string>
+    <string name="xoa_muc_tieu">Xóa mục tiêu</string>
+    <string name="xoa_muc_tieu_hoi">Xóa mục tiêu này?</string>
+    <string name="chuc_mung_hoan_thanh">Chúc mừng! Bạn đã hoàn thành mục tiêu.</string>
+    <string name="tien_do_muc_tieu">%1$s / %2$s (%3$d%%)</string>
+    <string name="han_con_ngay">Hạn: %1$s (còn %2$d ngày)</string>
+    <string name="han_qua_han">Hạn: %1$s (đã quá hạn)</string>
+    <string name="muc_tieu_hoan_thanh">Đã hoàn thành mục tiêu!</string>
+    <string name="muc_tieu_con_thieu">Còn thiếu %1$s so với mục tiêu.</string>
+    <string name="goi_y_moi_thang">Gợi ý: tiết kiệm khoảng %1$s mỗi tháng để kịp hạn.</string>
+
+    <!-- Cài đặt -->
+    <string name="ngan_sach_thang">Ngân sách chi tiêu mỗi tháng</string>
+    <string name="ngan_sach_hint">Số tiền tối đa (VNĐ), để trống nếu không đặt</string>
+    <string name="bat_canh_bao">Bật cảnh báo chi tiêu</string>
+    <string name="nhan_nguong">Cảnh báo khi chi đạt %1$d%% ngân sách</string>
+    <string name="gui_thu_thong_bao">Gửi thử thông báo</string>
+    <string name="can_cap_quyen_thong_bao">Hãy cho phép ứng dụng gửi thông báo, sau đó bấm lại nút này.</string>
+
+    <!-- Thông báo -->
+    <string name="ten_kenh">Cảnh báo chi tiêu</string>
+    <string name="mo_ta_kenh">Thông báo khi chi tiêu gần chạm hoặc vượt ngân sách tháng</string>
+    <string name="tb_vuot_tieu_de">Bạn đã vượt ngân sách tháng!</string>
+    <string name="tb_vuot_noi_dung">Bạn đã chi %1$s, vượt ngân sách %2$s của tháng này.</string>
+    <string name="tb_sap_cham_tieu_de">Sắp chạm ngân sách tháng</string>
+    <string name="tb_sap_cham_noi_dung">Bạn đã dùng %1$d%% ngân sách. Chỉ còn %2$s cho tháng này.</string>
+    <string name="tb_thu_tieu_de">Chi tiêu thông minh</string>
+    <string name="tb_thu_noi_dung">Thông báo hoạt động bình thường.</string>
+</resources>

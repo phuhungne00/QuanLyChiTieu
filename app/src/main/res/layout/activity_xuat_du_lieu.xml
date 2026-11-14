@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootXuat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/xuat_mo_ta"
+            android:textColor="@color/ct_chu_phu" />
+
+        <RadioGroup
+            android:id="@+id/rgXuat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:orientation="vertical">
+
+            <RadioButton
+                android:id="@+id/rbXuatGiaoDich"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:checked="true"
+                android:text="@string/xuat_giao_dich" />
+
+            <RadioButton
+                android:id="@+id/rbXuatChuyenTien"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/xuat_nap_chuyen" />
+        </RadioGroup>
+
+        <Button
+            android:id="@+id/btnXuat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/xuat_file_csv" />
+    </LinearLayout>
+</ScrollView>

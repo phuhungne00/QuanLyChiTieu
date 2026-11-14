@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootCaiDat"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/tvXinChaoCaiDat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            android:textColor="@color/ct_chu_phu"
+            android:textSize="15sp" />
+
+        <Button
+            android:id="@+id/btnTaiKhoan"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/quan_ly_tai_khoan" />
+
+        <Button
+            android:id="@+id/btnDanhMuc"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/quan_ly_danh_muc" />
+
+        <Button
+            android:id="@+id/btnNganSach"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/ngan_sach_va_canh_bao" />
+
+        <Button
+            android:id="@+id/btnXuatDuLieu"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/xuat_du_lieu" />
+
+        <Button
+            android:id="@+id/btnDoiMatKhau"
+            style="@style/Widget.MaterialComponents.Button.OutlinedButton"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="start|center_vertical"
+            android:text="@string/doi_mat_khau" />
+
+        <Button
+            android:id="@+id/btnDangXuatCaiDat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/dang_xuat" />
+    </LinearLayout>
+</ScrollView>

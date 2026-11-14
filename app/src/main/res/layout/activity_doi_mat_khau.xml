@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/rootDoiMk"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <EditText
+            android:id="@+id/etMkCu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/mat_khau_cu"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/etMkMoi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/mat_khau_moi"
+            android:inputType="textPassword" />
+
+        <EditText
+            android:id="@+id/etMkNhapLai"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:hint="@string/nhap_lai_mat_khau_moi"
+            android:inputType="textPassword" />
+
+        <Button
+            android:id="@+id/btnDoiMk"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:text="@string/doi_mat_khau" />
+    </LinearLayout>
+</ScrollView>

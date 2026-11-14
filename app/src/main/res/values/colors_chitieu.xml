@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ct_primary">#2E7D32</color>
+    <color name="ct_primary_dark">#1B5E20</color>
+    <color name="ct_accent">#EF6C00</color>
+    <color name="ct_thu">#2E7D32</color>
+    <color name="ct_chi">#C62828</color>
+    <color name="ct_nen">#F5F5F5</color>
+    <color name="ct_chu_phu">#757575</color>
+</resources>

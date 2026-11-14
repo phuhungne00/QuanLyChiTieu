@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!-- Android 13+: quyền hiển thị thông báo -->
+    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/ct_ten_ung_dung"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.ChiTieu">
+
+        <!-- Màn hình đầu tiên: đăng nhập -->
+        <activity
+            android:name=".taikhoan.DangNhapActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".taikhoan.DangKyActivity"
+            android:label="@string/dang_ky" />
+
+        <activity android:name=".MainActivity" />
+        <activity android:name=".giaodich.ThemGiaoDichActivity" />
+        <activity
+            android:name=".thongke.ThongKeActivity"
+            android:label="@string/thong_ke" />
+        <activity
+            android:name=".muctieu.MucTieuActivity"
+            android:label="@string/muc_tieu_tiet_kiem" />
+
+        <!-- Ví và hũ -->
+        <activity
+            android:name=".hu.HuActivity"
+            android:label="@string/vi_va_hu" />
+        <activity android:name=".hu.ChuyenTienActivity" />
+        <activity
+            android:name=".hu.LichSuActivity"
+            android:label="@string/lich_su" />
+
+        <!-- Cài đặt -->
+        <activity
+            android:name=".caidat.CaiDatActivity"
+            android:label="@string/cai_dat" />
+        <activity
+            android:name=".caidat.NganSachActivity"
+            android:label="@string/ngan_sach_va_canh_bao" />
+        <activity
+            android:name=".taikhoan.TaiKhoanActivity"
+            android:label="@string/quan_ly_tai_khoan" />
+        <activity
+            android:name=".caidat.DanhMucActivity"
+            android:label="@string/quan_ly_danh_muc" />
+        <activity
+            android:name=".caidat.XuatDuLieuActivity"
+            android:label="@string/xuat_du_lieu" />
+        <activity
+            android:name=".taikhoan.DoiMatKhauActivity"
+            android:label="@string/doi_mat_khau" />
+    </application>
+</manifest>

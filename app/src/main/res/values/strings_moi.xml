@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Đăng nhập / đăng ký -->
+    <string name="dang_nhap">Đăng nhập</string>
+    <string name="dang_nhap_mo_ta">Quản lý chi tiêu cá nhân thông minh</string>
+    <string name="dang_ky">Đăng ký</string>
+    <string name="dang_ky_mo_ta">Tạo tài khoản mới. Bạn sẽ có sẵn danh mục và 6 hũ chi tiêu mặc định.</string>
+    <string name="dang_ky_thanh_cong">Đăng ký thành công</string>
+    <string name="chua_co_tai_khoan">Chưa có tài khoản? Đăng ký ngay</string>
+    <string name="ten_dang_nhap">Tên đăng nhập</string>
+    <string name="ten_dang_nhap_goi_y">Tên đăng nhập (3-20 ký tự: chữ, số, _)</string>
+    <string name="mat_khau">Mật khẩu</string>
+    <string name="mat_khau_goi_y">Mật khẩu (tối thiểu 6 ký tự)</string>
+    <string name="nhap_lai_mat_khau">Nhập lại mật khẩu</string>
+    <string name="ho_ten">Họ và tên</string>
+    <string name="loi_nhap_ten_dang_nhap">Vui lòng nhập tên đăng nhập</string>
+    <string name="loi_nhap_mat_khau">Vui lòng nhập mật khẩu</string>
+    <string name="loi_nhap_ho_ten">Vui lòng nhập họ và tên</string>
+    <string name="loi_dang_nhap_sai">Sai tên đăng nhập hoặc mật khẩu</string>
+    <string name="loi_ten_dang_nhap_khong_hop_le">Tên đăng nhập gồm 3-20 ký tự: chữ không dấu, số hoặc dấu _</string>
+    <string name="loi_ten_dang_nhap_ton_tai">Tên đăng nhập đã tồn tại</string>
+    <string name="loi_mat_khau_ngan">Mật khẩu phải có ít nhất 6 ký tự</string>
+    <string name="loi_mat_khau_khong_khop">Mật khẩu nhập lại không khớp</string>
+    <string name="xin_chao">Xin chào, %1$s</string>
+    <string name="dang_xuat">Đăng xuất</string>
+    <string name="hoi_dang_xuat">Bạn có chắc muốn đăng xuất?</string>
+
+    <!-- Ví và hũ -->
+    <string name="vi_chinh">Ví chính</string>
+    <string name="vi_va_hu">Ví và Hũ</string>
+    <string name="mo_ta_vi_chinh">Tiền chưa phân bổ vào hũ nào</string>
+    <string name="tong_tai_san">Tổng tài sản</string>
+    <string name="tong_ty_le_hu">Tổng tỷ lệ các hũ: %1$d%% (nên là 100%%)</string>
+    <string name="ty_le_hu">Tỷ lệ phân bổ: %1$d%%</string>
+    <string name="them_hu_btn">+ Thêm hũ</string>
+    <string name="them_hu">Thêm hũ</string>
+    <string name="sua_hu">Sửa hũ</string>
+    <string name="xoa_hu">Xóa hũ</string>
+    <string name="xoa_hu_hoi">Xóa hũ này?</string>
+    <string name="ten_hu_hint">Tên hũ (vd: Du lịch)</string>
+    <string name="ty_le_hint">Tỷ lệ phân bổ % (0-100)</string>
+    <string name="vi_chinh_khong_sua">Ví chính là mặc định, không thể sửa hoặc xóa</string>
+    <string name="loi_hu_dang_dung">Hũ đã có giao dịch hoặc lịch sử nạp - chuyển tiền nên không thể xóa</string>
+    <string name="loi_trung_ten">Tên này đã tồn tại</string>
+    <string name="loi_ty_le">Tỷ lệ phải từ 0 đến 100</string>
+    <string name="phan_bo_btn">Phân bổ</string>
+    <string name="phan_bo_theo_ty_le">Phân bổ theo tỷ lệ</string>
+    <string name="mo_ta_phan_bo">Chia tiền trong Ví chính vào các hũ theo tỷ lệ phần trăm đã đặt cho từng hũ.</string>
+    <string name="hint_phan_bo">Số tiền phân bổ (tối đa %1$s)</string>
+    <string name="ghi_chu_phan_bo">Phân bổ theo tỷ lệ</string>
+    <string name="da_phan_bo">Đã phân bổ vào các hũ</string>
+    <string name="loi_chua_co_ty_le">Chưa có hũ nào có tỷ lệ lớn hơn 0</string>
+    <string name="xac_nhan">Xác nhận</string>
+    <string name="vi_hu_nhan">Ví / Hũ</string>
+    <string name="canh_bao_am_hu">%1$s đang âm %2$s. Hãy nạp thêm tiền hoặc chuyển từ hũ khác.</string>
+    <string name="loi_chua_co_danh_muc">Chưa có danh mục. Hãy thêm trong Cài đặt, mục Quản lý danh mục.</string>
+
+    <!-- Nạp tiền / chuyển tiền -->
+    <string name="nap_tien_vi">Nạp tiền</string>
+    <string name="chuyen_tien">Chuyển tiền</string>
+    <string name="nap_tu_nguon">Nạp từ nguồn</string>
+    <string name="nap_vao">Nạp vào</string>
+    <string name="chuyen_tu">Chuyển từ</string>
+    <string name="chuyen_den">Chuyển đến</string>
+    <string name="nguon_tien_mat">Tiền mặt</string>
+    <string name="nguon_ngan_hang">Tài khoản ngân hàng</string>
+    <string name="nguon_vi_dien_tu">Ví điện tử</string>
+    <string name="nguon_khac">Nguồn khác</string>
+    <string name="so_du_hien_tai">Số dư hiện tại: %1$s</string>
+    <string name="so_du_kha_dung">Số dư khả dụng: %1$s</string>
+    <string name="loi_khong_du_tien">Số dư không đủ (còn %1$s)</string>
+    <string name="loi_cung_hu">Nơi gửi và nơi nhận phải khác nhau</string>
+    <string name="nap_thanh_cong">Nạp tiền thành công</string>
+    <string name="chuyen_thanh_cong">Chuyển tiền thành công</string>
+    <string name="lich_su">Lịch sử</string>
+    <string name="chua_co_lich_su">Chưa có lần nạp hoặc chuyển tiền nào</string>
+
+    <!-- Cài đặt -->
+    <string name="dang_dang_nhap_voi">Đang đăng nhập: %1$s (@%2$s)</string>
+    <string name="quan_ly_tai_khoan">Quản lý tài khoản</string>
+    <string name="quan_ly_danh_muc">Quản lý danh mục</string>
+    <string name="ngan_sach_va_canh_bao">Ngân sách và cảnh báo</string>
+    <string name="xuat_du_lieu">Xuất dữ liệu</string>
+    <string name="doi_mat_khau">Đổi mật khẩu</string>
+
+    <!-- Quản lý tài khoản -->
+    <string name="nhan_ten_dang_nhap">Tên đăng nhập: %1$s</string>
+    <string name="nhan_ngay_tao">Ngày tạo tài khoản: %1$s</string>
+    <string name="luu_thay_doi">Lưu thay đổi</string>
+    <string name="xoa_tai_khoan">Xóa tài khoản</string>
+    <string name="canh_bao_xoa_tai_khoan">Toàn bộ giao dịch, hũ, danh mục và mục tiêu của tài khoản sẽ bị xóa vĩnh viễn và không thể khôi phục. Nhập mật khẩu để xác nhận.</string>
+    <string name="nhap_mat_khau_xac_nhan">Mật khẩu hiện tại</string>
+    <string name="loi_mat_khau_sai">Mật khẩu không đúng</string>
+    <string name="da_xoa_tai_khoan">Đã xóa tài khoản</string>
+
+    <!-- Quản lý danh mục -->
+    <string name="chua_co_danh_muc">Chưa có danh mục nào</string>
+    <string name="them_danh_muc_btn">+ Thêm danh mục</string>
+    <string name="them_danh_muc">Thêm danh mục</string>
+    <string name="doi_ten">Đổi tên</string>
+    <string name="ten_danh_muc_hint">Tên danh mục</string>
+    <string name="xoa_danh_muc_hoi">Xóa danh mục này?</string>
+    <string name="loi_danh_muc_dang_dung">Danh mục đang có %1$d giao dịch nên không thể xóa</string>
+    <string name="loi_giu_it_nhat_mot">Phải giữ lại ít nhất một danh mục</string>
+
+    <!-- Xuất dữ liệu -->
+    <string name="xuat_mo_ta">Xuất dữ liệu ra file CSV để mở bằng Excel hoặc lưu trữ. Bạn sẽ được chọn nơi lưu file.</string>
+    <string name="xuat_giao_dich">Giao dịch thu - chi</string>
+    <string name="xuat_nap_chuyen">Lịch sử nạp - chuyển tiền</string>
+    <string name="xuat_file_csv">Xuất file CSV</string>
+    <string name="xuat_thanh_cong">Đã xuất file thành công</string>
+    <string name="xuat_that_bai">Không thể ghi file, vui lòng thử lại</string>
+    <string name="cot_ngay">Ngày</string>
+    <string name="cot_loai">Loại</string>
+    <string name="cot_danh_muc">Danh mục</string>
+    <string name="cot_so_tien">Số tiền (VNĐ)</string>
+    <string name="cot_vi_hu">Ví / Hũ</string>
+    <string name="cot_ghi_chu">Ghi chú</string>
+    <string name="cot_tu">Từ</string>
+    <string name="cot_den">Đến</string>
+
+    <!-- Đổi mật khẩu -->
+    <string name="mat_khau_cu">Mật khẩu hiện tại</string>
+    <string name="mat_khau_moi">Mật khẩu mới (tối thiểu 6 ký tự)</string>
+    <string name="nhap_lai_mat_khau_moi">Nhập lại mật khẩu mới</string>
+    <string name="loi_mat_khau_cu_sai">Mật khẩu hiện tại không đúng</string>
+    <string name="loi_mat_khau_trung_cu">Mật khẩu mới phải khác mật khẩu cũ</string>
+    <string name="doi_mat_khau_thanh_cong">Đã đổi mật khẩu</string>
+</resources>
